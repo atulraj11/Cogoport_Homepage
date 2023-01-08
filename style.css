@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    background-color: yellow;
+    
+}
+.logo{
+    display: inline-block;
+    /* margin-left: 40px; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 90px;
+    margin-inline-end: 80px;
+    padding-inline-start: 40px
+    /* box-sizing: border-box; */
+}
+
+
+ #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 0px;
+    padding-inline-start: 80px
+ }
+ /* ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px
+ } */
+ #navbar ul li{
+    display: flex;
+    font-weight: bold;
+    margin-left: 20px;
+    /* border-radius: 40px; */
+    /* justify-content: center; */
+    cursor: pointer;
+ }
+ #navbar ul li div:hover{
+    color: red;
+ }
+ ul.navlist2{
+    /* display: flex; */
+    /* margin-right: 1px;
+    margin-left: 20px;
+    margin-right: 20px;   */
+    /* float: right; */
+ }
+ .sign_up{
+    /* min-width:62px;
+    height: 36px; */
+    /* margin-inline-start: 100px; */
+    /* margin-inline-end: px; */
+    /* justify-content: center; */
+    background-color: red; 
+    border: 8px solid red;
+    border-radius: 10px;
+    border-color: red;
+    padding-inline-end: 1rem;
+ }
+ .button_signup{
+    color: #fff;
+    font-size: 15px;
+    /* margin-inline-start: 40px; */
+    /* margin-inline-end: 5px; */
+    justify-content: center;
+    background-color: red;
+    /* border-radius: 4px 16px solid red; */
+    border: none;
+    padding: 1px 2px;
+    /* border-radius: 10px; */
+ }
+ 
+
+
