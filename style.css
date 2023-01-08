@@ -9,12 +9,14 @@ html{
 }
 #navbar{
     display: flex;
-    background-color: yellow;
+    background-color: #fbdc00;
     
 }
 .logo{
+    /* position: fixed; */
     display: inline-block;
     /* margin-left: 40px; */
+    z-index: 100;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 90px;
@@ -23,7 +25,11 @@ html{
     /* box-sizing: border-box; */
 }
 
-
+button {
+    font-family: "PT Sans",sans-serif;;
+    font-size: 14px!important;
+    font-weight: 700!important;
+}
  #navbar ul {
     display: flex;
     align-items: center;
@@ -83,6 +89,63 @@ html{
     padding: 1px 2px;
     /* border-radius: 10px; */
  }
+ .header_ladki{
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    /* z-index: 100; */
+    /* padding-top: 57px; */
+    /* margin-top: -7px; */
+    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+    background-color: #fbdc00;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+ }
+ .styles_content_container__Lq4ZE{
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto; */
+    /* width:; */
+ }
+ h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 3em;
+    margin-block-end: 0.6em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ladki_image{
+    display: flex;
+    /* position: fixed; */
+    /* margin-inline-start:900px ; */
+    /* margin-inline-end: 100px; */
+    /* margin-right: auto; */
+    /* margin-top: 240px; */
+    /* margin-inline-start: 100px; */
+}
+.home_button{
+    color: #fff;
+    background-color: red;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 8px solid red;
+    padding: 5px 35px;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+
  
 
 
