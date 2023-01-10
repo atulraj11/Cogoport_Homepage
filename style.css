@@ -419,12 +419,20 @@ font-weight: bold;
    border-radius: 10px;
    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
  }
+ .cover p{
+   margin-bottom: 14px;
+ }
  .dot_img{
    display: flex;
    align-items: center;
    padding: 0 0 10px;
    margin: 0;
    list-style-position: outside;
+ }
+ .dot_img div{
+   padding-left: 8px;
+    font-size: 20px;
+    font-weight: 600;
  }
   .dot_points{
    padding-bottom: 5px;
@@ -486,6 +494,7 @@ font-weight: bold;
 .video{
    position: relative;
    cursor: pointer;
+   height: 450px;
    /* background-color: rgba(0,0,0,.4); */
 }
 
@@ -599,7 +608,7 @@ h3 {
 .styles_card_title__D5epU {
    margin-bottom: 5px;
    font-size: 16px!important;
-   color: var(--color-primary);
+   color: #ee3425;
 }
 .styles_card_name__aq9WH {
    margin-bottom: 5px;
@@ -619,7 +628,7 @@ h3 {
    display: flex;
    align-items: center;
    font-weight: 700;
-   color: var(--color-primary);
+   color: #ee3425;
    cursor: pointer;
 }
 .styles_card_title1__MR1j6 {
@@ -816,77 +825,45 @@ ul.tab_5 {
 }
 .box_upper_footer {
    display: flex;
-   align-items: flex-start;
-   justify-content: center;
+   /* align-items: flex-start; */
+   justify-content: space_around;
    width: 100%;
    padding: 35px 10px 50px;
-   font-family: var(--font-family);
+   font-family: "PT Sans",sans-serif;
    background: #fbdc00;
 }
-.list_1 {
-   margin-right: 0px;
-}
-.list_2 {
-   margin-right: 0px;
-}
-.list_3 {
-   margin-right: 00px;
-}
-.list_4 {
-   margin-right: 0px;
-}
-.list_5 {
-   margin-right: 0px;
-   
-}
-.product {
+ .list_col{
+   /* top: 0; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;  */
+    /* justify-content: space-around; */
+    width: 100%; 
+    color: #000;
+ }
+ .list_col ul li{
+   /* color: #000; */
+   padding: 5px;
+ }
+ .list_col ul li a{
+   color: #000;
+   text-decoration: none;
+   margin-top: 10px;
+ }
+ .list_col ul li a:hover{
+   text-decoration: underline;
+ }
+.upper_head {
    font-size: 20px;
    text-decoration: underline;
    font-weight: bold;
    margin-left: 0px;
-   padding: 0 50px;
+   /* margin-bottom: 40px; */
+   padding: 15px 55px;
 }
-.Partners {
-   font-size: 20px;
-   text-decoration: underline;
-   font-weight: bold;
-   margin-left: 50px;
-}
-.Company {
-   font-size: 20px;
-   text-decoration: underline;
-   font-weight: bold;
-   margin-left: 50px;
-}
-.Knowledge_center{
-   font-size: 20px;
-   text-decoration: underline;
-   font-weight: bold;
-   margin-left: 50px;
-}
-.Cross_border_Logistic {
-   font-weight: bold;
-}
-.Domestic_Logistics {
-   font-weight: bold;
 
-}
-.Supply_Chain_Solutions{
-   font-weight: bold;
-}
-.Financial_Sevice{
-   font-weight: bold;
-}
-.Our_Logistics_Providers{
-   font-weight: bold;
-}
-.Partnership_Program{
-   font-weight: bold;
-}
-.Resources{
-   font-weight: bold;
-}
-ul.tab_1 li{
+
+/* ul.tab_1 li{
    padding: 5px;
 }
 ul.tab_2 li{
@@ -900,7 +877,7 @@ ul.tab_4 li{
 }
 ul.tab_5 li{
    padding: 5px;
-}
+} */
 .how_it_works {
    width: 1200px;
 }
