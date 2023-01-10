@@ -345,6 +345,7 @@ font-weight: bold;
    justify-content: space-around;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 30px;
    padding: 20px 0px;
    background-color: #fbdc00;
 
@@ -371,6 +372,65 @@ font-weight: bold;
    color: #fff;
    cursor: pointer;
 }
+.first_cont{
+   width:1200px;
+   padding:16px;
+   margin-right: auto;
+   margin-left: auto;
+ }
+ 
+ .how_cont{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 50px;
+   /* margin-top: 50px; */
+ }
+ .how_cont h3{
+   font-size: 28px;
+ }
+ .how_button{
+   width: 200px;
+   padding: 20px;
+   margin: 0 20px;
+   color: #000!important;
+   border-radius: 20px;
+   min-width: 72px;
+   height: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   line-height: 1.2;
+   cursor: pointer;
+ }
+ .act_button{
+   background-color: #fbdc00!important;
+   border: #fbdc00!important;
+ }
+ .inact_button{
+   background: #e5dfdf!important;
+     border: grey!important;
+ }
+ 
+ .cover{
+   width: 300px;
+   padding: 16px;
+   border-radius: 10px;
+   box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+ }
+ .dot_img{
+   display: flex;
+   align-items: center;
+   padding: 0 0 10px;
+   margin: 0;
+   list-style-position: outside;
+ }
+  .dot_points{
+   padding-bottom: 5px;
+   padding-left: 8px;
+   margin: 0
+ }
 .serve{
    background: #fffef2;
    margin-top: 50px;
@@ -487,154 +547,110 @@ font-weight: bold;
    font-weight: 700;
 }
 
-.how_it_works {
+.styles_container__YcS5m.ui_fixed_container {
    width: 1200px;
 }
-.how_it_works_cont {
+.styles_blog_container__3X_0M {
    display: flex;
    flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   margin-bottom: 50px;
+}
+.styles_heading__n9MVL {
+   text-align: center;
 }
 h3 {
    font-size: 28px;
    line-height: 1.2;
 }
-.how_it_works_button {
+.styles_cards_container__1tjAy {
    display: flex;
+   flex-wrap: wrap;
+   margin-right: -10px;
+   margin-left: -10px;
+}
+.styles_card__qp3LP {
+   width: calc(calc(100% / 3) - 20px);
+   margin-right: 10px;
+   margin-bottom: 40px;
+   margin-left: 10px;
+   overflow: hidden;
+   text-align: start;
+   cursor: pointer;
+   border-radius: 8px;
+   box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+}
+.styles_card__qp3LP a {
+   color: #000!important;
+   text-decoration: none;
+}
+.styles_card_thumbnail__zF8QZ {
+   display: block;
+   width: 100%;
+   height: 200px;
+   background-color: #fbdc00;
+   -o-object-fit: cover;
+   object-fit: cover;
+}
+.styles_blog_card_content__eDCmr {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px 16px;
+}
+.styles_card_title__D5epU {
+   margin-bottom: 5px;
+   font-size: 16px!important;
+   color: var(--color-primary);
+}
+.styles_card_name__aq9WH {
+   margin-bottom: 5px;
+   font-size: 18px;
+   color: #000!important;
+}
+.styles_overview__Cb6CL {
+   max-height: calc(1.4rem * 3);
+   overflow: hidden;
+}
+.styles_read_container__C9N_V {
+   display: flex;
+   align-items: center;
    justify-content: space-between;
 }
-.how_it_works_cont
-.For_Cargo_Owners_button {
-   width: 200px;
-   padding: 10px;
-   margin: 0 20px;
-   font-weight: 700;
-   color: #000!important;
-   border-radius: 20px;
-}
-.For_Cargo_Owners_button {
-   border-radius: 20px;
-   background-color: var(--color-secondary)!important;
-   border: var(--color-secondary)!important;
-}
-.how_it_works_cont
-.For_Logistics_Partners_button {
-   width: 200px;
-   padding: 10px;
-   margin: 0 20px;
-   font-weight: 700;
-   color: #000!important;
-   
-}
-.For_Logistics_Partners_button {
-   border-radius: 20px;
-   background: #e5dfdf!important;
-   border: grey!important;
-}
-.styles_container__7cFsf {
-   position: relative;
-   display: flex;
-}
-div {
-   display: block;
-}
-.styles_container__7cFsf {
-   position: relative;
-   display: flex;
-}
-.styles_stage1__RwgVC {
-   margin-bottom: 120px;
-}
-.styles_main__9QKz8 {
-   width: 300px;
-   padding: 16px;
-   border-radius: 10px;
-   box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
-}
-.styles_imagecontainer__7Ps6C {
+.styles_read_more__6_oMk {
    display: flex;
    align-items: center;
-   justify-content: center;
+   font-weight: 700;
+   color: var(--color-primary);
+   cursor: pointer;
 }
-.styles_redtext__qNc_O {
-   font-weight: 600;
-   color: #ee3425;
+.styles_card_title1__MR1j6 {
+   margin-bottom: 5px;
+   font-size: 14px!important;
+   color: #9a9a9a;
+}
+.styles-module_container__EvXjS {
+   width: 960px;
+   padding: 16px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.styles_button_container__NubT0 {
+   justify-content: center;
+   text-align: center;
+}
+.ui_button_container.ui_ps_themeType_primary {
+   color: #fff;
+   background-color: var(--color-primary);
+   border: 1px solid var(--color-primary);
+   padding: 8px 42px;
+   border-radius: 4px;
 }
 
-p {
-   font-size: 16px;
-}
-.styles_heading__GyQVu {
-   display: flex;
-   align-items: center;
-   padding: 0 0 10px;
-   margin: 0;
-   list-style-position: outside;
-}
-.styles_main__9QKz8 span {
-   display: flex;
-}
-.styles_para__7I1R1 {
-   padding-bottom: 5px;
-   padding-left: 8px;
-   margin: 0;
-}
-.styles_arrow1__hJg7v {
-   position: absolute;
-   top: 104px;
-   left: 300px;
-}
-.styles_arrowimage__50gz2 {
-   width: 150px;
-   height: 60px;
-}
-.styles_main__9QKz8 span {
-   display: flex;
-}
-.styles_para__7I1R1 {
-   padding-bottom: 5px;
-   padding-left: 8px;
-   margin: 0;
-}
-.styles_main__9QKz8 {
-   width: 300px;
-   padding: 16px;
-   border-radius: 10px;
-   box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
-}
-.styles_arrow2__JOZhk {
-   position: absolute;
-   bottom: 116px;
-   left: 300px;
-}
-.styles_arrowimage__50gz2 {
-   width: 150px;
-   height: 60px;
-}
-.styles_imagecontainer__7Ps6C {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.styles_image__cFHAa {
-   width: 560px;
-   height: 320px;
-}
-.styles_arrow3__XQhnr {
-   position: absolute;
-   top: 104px;
-   right: 300px;
-}
-.styles_arrow4__W5PwF {
-   position: absolute;
-   right: 300px;
-   bottom: 116px;
-}
-.styles_stage3__anVPg {
-   margin-bottom: 120px;
-}
+
+
+
+
+
+
 .before_curve1{
    background: #fbdc00;
 }
